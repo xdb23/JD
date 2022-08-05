@@ -1,7 +1,7 @@
 /*
- 领金贴(只签到) Fixed By X1a0He
+ 领金贴(只签到) 
  Last Modified time: 2022-05-28 15:00:00
- Last Modified By X1a0He
+ cron "32 0 * * *" script-path=jd_jin_tie.js,tag=领金贴
  活动入口：京东APP首页-领金贴，[活动地址](https://active.jd.com/forever/cashback/index/)
  */
 const $ = new Env('领金贴');

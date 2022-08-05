@@ -2,7 +2,7 @@
 京东保价(h5st)
 2022-02-24
 [Script]
-cron "39 20 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_price.js,tag=京东保价
+cron "55 23 * * *" script-path=jd_price.js,tag=京东保价
  */
 const $ = new Env('京东保价');
 const notify = $.isNode() ? require('./sendNotify') : '';

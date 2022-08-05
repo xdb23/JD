@@ -3,7 +3,7 @@
 活动入口：京东赚赚小程序
 长期活动，每日收益2毛左右，多号互助会较多
 [Script]
-cron "10 1,19 * * *" script-path=jd_jdzz.js,tag=京东赚赚
+cron "10 1,15 * * *" script-path=jd_jdzz.js,tag=京东赚赚
  */
 const $ = new Env('京东赚赚修复版');
 const notify = $.isNode() ? require('./sendNotify') : '';

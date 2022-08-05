@@ -5,7 +5,7 @@
 互助码shareCode请先手动运行脚本查看打印可看到
 一天只能帮助5个人。多出的助力码无效
 [Script]
-cron "30 5,20 * * *" script-path=jd_pet_help.js,tag=东东萌宠
+cron "30 5,13,20 * * *" script-path=jd_pet_help.js,tag=东东萌宠
  */
 const $ = new Env('东东萌宠内部互助');
 let cookiesArr = [], cookie = '', jdPetShareArr = [], isBox = false, allMessage = '';
