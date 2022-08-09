@@ -6,7 +6,7 @@
 一天只能帮助3个人。多出的助力码无效
 
 [Script]
-cron "45 6-18/6 * * *" script-path=jd_fruit_task.js,tag=东东农场日常任务
+cron "23 3-21/6 * * *" script-path=jd_fruit_task.js,tag=东东农场日常任务
 
 export DO_TEN_WATER_AGAIN="" 默认再次浇水
 
