@@ -72,7 +72,11 @@ async function jdBeanHome() {
     await getUserInfo()
     await $.wait(1000)
     await getTaskList();
+    //await receiveJd2();
+    }
+    //await morningGetBean()
     await $.wait(1000)
+
     await beanTaskList(1)
     await $.wait(1000)
     await queryCouponInfo()
@@ -103,9 +107,9 @@ function morningGetBean() {
         } else {
           if (safeGet(data)) {
             data = JSON.parse(data);
-            if (data.data.awardResultFlag === "1") {
+            if (data.data?.awardResultFlag === "1") {
               console.log(`早起福利领取成功：${data.data.bizMsg}`)
-            } else if (data.data.awardResultFlag === "2") {
+            } else if (data.data?.awardResultFlag === "2") {
               console.log(`早起福利领取失败：${data.data.bizMsg}`)
             } else {
               console.log(`早起福利领取失败：${data.data.bizMsg}`)
