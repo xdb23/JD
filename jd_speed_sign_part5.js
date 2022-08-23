@@ -1,7 +1,7 @@
 /*
 cron "5 16 * * *" jd_speed_sign_part5.js, tag:京东极速版任务5
 */
-const $ = new Env('京东极速版任务5);
+const $ = new Env('京东极速版任务5');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
